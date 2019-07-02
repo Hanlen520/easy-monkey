@@ -41,8 +41,10 @@ def logcat():
 
 # Run monkey test command
 def runmonkey():
-    os.popen('adb shell monkey -p %s --pct-touch 40 --pct-motion 25 --pct-appswitch 10 --pct-rotation 5 '
-             '--ignore-crashes --ignore-timeouts --ignore-security-exceptions -s %s --throttle 200 -v 5400 '
+    os.popen('adb shell monkey -p %s '
+             '--pct-touch 40 --pct-motion 20 --pct-appswitch 10 --pct-rotation 5 --pct-syskeys 5 '
+             '--ignore-crashes --ignore-timeouts --ignore-security-exceptions --ignore-native-crashes -s %s '
+             '--throttle 200 -v -v -v 5400 '
              '1>monkey_log.txt 2>error.txt' % (packageName, seedValue))
 
 
