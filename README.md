@@ -31,3 +31,9 @@ Monkey 是谷歌官方的一个工具，内置在 Android 系统中。作用是�
 - 显示 Monkey 跑完后 10 分钟的 CPU 走势
 - Log 信息过滤
 - 显示 Monkey 从开始到结束后半小时的内存走势
+
+**to-do list**  
+-[ ] 统计 Monkey 运行过程中遍历的 Activity
+-[ ] 内存快照（hprof）
+-[ ] 合入空指针检查
+-[ ] 剔除结果中重复的 Crash 信息
