@@ -1,6 +1,6 @@
 # easy-monkey
 
-1、什么是 Monkey？
+1、什么是 Monkey？  
 Monkey 是谷歌官方的一个工具，内置在 Android 系统中。作用是给模拟器/设备上的应用发送伪随机的事件，例如点击、触摸或滑动，以及系统级的事件（back/home/menu等）。可以利用 Monkey 做安卓应用的压力测试。通过在应用上执行一大串各种类型的事件，模拟用户的无序操作，收集操作日志，从中获取应用 Crash/ANR 的 log。
 关于 Monkey 的更多信息，请查看[谷歌官方文档](https://developer.android.com/studio/test/monkey)。
 
